@@ -1,0 +1,22 @@
+{
+  "name": "object-div-element",
+  "repo": "object-element/object-div-element",
+  "description": "Object div element",
+  "version": "0.0.1",
+  "keywords": [],
+  "paths": ["../"],
+  "local": [],
+  "dependencies": {
+    "object-dom/object-element": "*"  
+  },
+  "development": {
+    "shallker/simple-test": "*",  
+    "shallker/dom-helper": "*"  
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "lib/object-div-element.js"
+  ]
+}

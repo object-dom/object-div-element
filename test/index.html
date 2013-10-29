@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <script src="/build/build.js"></script>
+    <script>
+      var ObjectDivElement = require('object-div-element');
+      var test = require('simple-test');
+      var dom = require('dom-helper');
+
+      test('objectDivElement.tag', function () {
+        var div = dom.insertDiv();
+        window.objectDiv = new ObjectDivElement(div);
+
+        test.eq(objectDiv.tag, 'div');
+        dom.remove(div);
+      });
+      </script>
+  </body>
+</html>
